@@ -1,0 +1,11 @@
+{
+  "name": "kuaidipassenger",
+  "version": "0.0.1",
+  "description": "kui-base-npm",
+  "scripts": {
+    "build": "webpack"
+  },
+  "dependencies": {
+    "webpack": "^2.2.1"
+  }
+}
