@@ -63,7 +63,7 @@
 /******/ 	__webpack_require__.p = "";
 
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 2);
+/******/ 	return __webpack_require__(__webpack_require__.s = 1);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -74,13 +74,13 @@
 const foo = function () {
 	return 1
 }
-/* harmony export (immutable) */ __webpack_exports__["b"] = foo;
+/* harmony export (immutable) */ __webpack_exports__["a"] = foo;
 
 
 const bar = function () {
 	return 2
 }
-/* harmony export (immutable) */ __webpack_exports__["a"] = bar;
+/* unused harmony export bar */
 
 
 const foobar = function () {
@@ -90,8 +90,7 @@ const foobar = function () {
 
 
 /***/ }),
-/* 1 */,
-/* 2 */
+/* 1 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -99,7 +98,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__util__ = __webpack_require__(0);
 
 
-const a = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__util__["b" /* foo */])();
+const a = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__util__["a" /* foo */])();
 
 /***/ })
 /******/ ]);

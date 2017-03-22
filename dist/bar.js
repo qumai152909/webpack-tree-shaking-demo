@@ -74,7 +74,7 @@
 const foo = function () {
 	return 1
 }
-/* harmony export (immutable) */ __webpack_exports__["b"] = foo;
+/* unused harmony export foo */
 
 
 const bar = function () {

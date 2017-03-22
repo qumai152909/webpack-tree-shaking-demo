@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "description": "kui-base-npm",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "build2": "webpack --config ./webpack.config2.js"
   },
   "dependencies": {
     "webpack": "^2.2.1"
